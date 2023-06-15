@@ -7,14 +7,14 @@
 #   Call the pitcher.py file using 'python3 pitcher.py' from the terminal
 
 # Once complete a log of the transations will be placed in a folder called 'Completed'
-# A limitation of this program is that once a record edit is made, it becomes locked, preventing additionals edits to the same record
-# Indexing of items allows the item change to take effect whihc unlocks the edited record 
+# A limitation of this program is that once a record edit is made, it becomes locked, preventing additional edits to the same record
+# Indexing of items allows the item change to take effect which unlocks the edited record
 #   Navigating to items>index>and clicking "index now" will trigger reindexing
 
 
 # This script takes a csv file of updates with four fields: 
-#   Alias: The CONTENTdm collection internal name for the item to be updateds. This can be found in the URL for the item. 
-#   CDM_id: The item's intenal id. Can be pulled from an export of the collection. 
+#   Alias: The CONTENTdm collection internal name for the item to be updated. This can be found in the URL for the item.
+#   CDM_id: The item's internal id. Can be pulled from an export of the collection.
 #   CDM_field: The metadata attribute/field name to be changed. Note these are truncated to 5-6 lowercase characters. 
 #       Can be verified from the CONTENTdm Administration interface under: 
 #       'Collection administration'>'Field Properties'>'edit'(next to the field to be updated)
@@ -30,9 +30,9 @@
 # Original Author: Shawn Averkamp, 2014-02-24 
 
 
-# Updated to Python 3 by: Kevin Worthington, Colroado State University
+# Updated to Python 3 by: Kevin Worthington, Colorado State University
 
-# OCLS Catcher Documentation: 
+# OCLC Catcher Documentation:
 # https://help.oclc.org/@api/deki/pages/12875/pdf/Guide%2bto%2bthe%2bCONTENTdm%2bCatcher.pdf?stylesheet=default
 # https://help.oclc.org/Metadata_Services/CONTENTdm/CONTENTdm_Catcher/Download_the_CONTENTdm_Catcher?sl=en 
 # https://help.oclc.org/Metadata_Services/CONTENTdm/CONTENTdm_Catcher/Guide_to_the_CONTENTdm_Catcher

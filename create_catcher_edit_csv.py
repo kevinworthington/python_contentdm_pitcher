@@ -29,8 +29,8 @@ args = parser.parse_args()
 
 # create file with heading - Alias,CDM_page_id,CDM_field,Value
 #Input
-inpute_file=open( args.source_file, 'r' ) 
-csv_reader = csv.DictReader(inpute_file)
+input_file=open( args.source_file, 'r' )
+csv_reader = csv.DictReader(input_file)
 
 #output
 f = open(args.output, 'w')
@@ -44,4 +44,4 @@ for row in csv_reader:
 
 
 f.close()
-inpute_file.close()
+input_file.close()
